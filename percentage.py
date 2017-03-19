@@ -1,0 +1,10 @@
+print("enter the marks for five subject ")
+m=input("enter the marks of math: ")
+n=input("enter the marks of nepali: ")
+s=input("enter the marks of social: ")
+sc=input("enter the marks of science: ")
+e=input("enter the marks of english: ")
+total=float(m)+ float(n) + float(s) + float(s) +float(e)
+print("total marks ={}".format(total))
+per=(total/500)*100
+print("percentage ={:.2f}%" .format(per))
